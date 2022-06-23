@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Carta de Aprensentação sobre Jordan Pereira Lima, e, demonstração de todo seu portifólio e currículo">
+        <title>Portifólio do Jordan</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<header class="link">
+        <img class="link-menu-logo" src="./src/github.png" alt="GITHUB">
+        <nav class="link-menu">
+                <a class="link-menu-item" href="https://br.linkedin.com/in/jordanlima94" target="_blank">Formações e cursos</a>
+                <a class="link-menu-item">Experiências</a>
+                <a class="link-menu-item">Portifólio</a>
+                <a class="link-menu-item">Contatos</a>
+        </nav>
+
+</header>
+
+<main class="conteudo">
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo">Jordan Pereira Lima</h1>
+                <h2 class="conteudo-principal-escrito-subtitulo">Deixando você sempre um passo a frente</h2>
+                <button class="conteudo-principal-escrito-botao">Me contate</button>
+				
+            </div>    
+				
+            <img class="conteudo-principal-imagem" src="./src/user.jpg" alt="Imagem do Jordan">
+
+        </section>
+
+        <section class="conteudo-secundario">
+                <h3 class="conteudo-secundario-titulo">Quem sou eu?</h3>
+                <p class="conteudo-secundario-paragrafo"><b>O Criativo:</b> Graças ao amor a música e a arte, sempre procuro soluções criativas, e, que funcione.</p>
+                <p class="conteudo-secundario-paragrafo"><b>O Analítico:</b> Gosto de ter certeza da melhora continua</p>
+                <p class="conteudo-secundario-paragrafo">Gosto de pensar que tudo faz parte de processo para poder sempre crescer em tudo</p>
+
+
+        </section>
+
+</main>
+
+<footer class="rodape">
+	<h1 class="rodape-nome">Jordan Pereira Lima</h1>
+
+</footer>
+        
+</body>
+</html>

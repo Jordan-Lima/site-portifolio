@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+	margim: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+
+}
+
+body {
+	font-size: 100%;
+	background: linear-gradient(68.15deg, #311e45 16.62%, #0c1030 85.61%);
+}
+
+.link {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 5px;
+	justify-content: space-around;
+}
+.link-menu-logo {
+	height: 45px;
+	border-radius: 50%;
+}
+
+.link-menu {
+	display: flex;
+	gap: 32px;
+}
+
+.link-menu-item  {
+	font-family: 'Sarala', sans-serif;
+	color: #c7e5fc;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.conteudo {
+	margim-bottom: 48px;
+	border-top: 0.4px solid white;
+	
+}
+
+.conteudo-principal {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+
+	
+}
+
+.conteudo-principal-escrito {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+	font-family: 'Righteous', cursive;
+	font-weight: 400;
+	font-size: 42px;
+	color: #ffffff;
+}
+
+.conteudo-principal-escrito-subtitulo {
+	font-family: 'Sarala', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #ffd4e6;
+}
+
+.conteudo-principal-escrito-botao {
+	background-color: #ECD6C4;
+	width: 90px;
+	height: 30px;
+	border: none;
+	box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+	font-family: 'Sarala', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	color: #2F2325;
+}
+
+.conteudo-principal-escrito-botao:hover {
+	background-color: #c7b4a5;
+	
+}
+
+.conteudo-principal-imagem {
+	border-radius: 50%;
+	box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.conteudo-secundario {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	margin-top: 15px;
+}
+
+.conteudo-secundario-titulo {
+	border-top: 0.4px solid #FFF2E7;
+	padding-top: 28px;
+	font-family: 'Righteous', cursive;
+	font-weight: 400;
+	font-size: 1rem;
+	color: #dcd4ff;
+		
+}
+
+.conteudo-secundario-paragrafo {
+	font-family: 'Sarala', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	color: #ffffff;
+
+}
+
+.rodape {
+	padding: 32px;
+	border-top: 0.4px solid #FFF2E7;
+}
+
+.rodape-nome {
+	background-color: white;
+	text-align: center;
+	box-shadow: 5px 5px 5px .5 #755a58;
+	color: #ff00e1;
+	height: 24px;
+	display: block;	
+	margin: 0 auto;
+}
